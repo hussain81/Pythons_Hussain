@@ -1,0 +1,17 @@
+x=3
+ans = 0
+itersleft = x
+while ( itersleft !=0 ):
+  ans = ans + x
+  itersleft = itersleft - 1
+
+print(str(x) + " * " + str(x) + ' = ' + str(ans))
+
+num = 10
+while True:
+    if num < 7:
+        print 'Breaking out of loop'
+        break
+    print num
+    num -= 1
+print 'Outside of loop' 
